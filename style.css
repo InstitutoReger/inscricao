@@ -1,0 +1,71 @@
+html, body{width: 100%; height: 100%;}
+html{font-size:62.5%}
+body{
+    background:url(bg.png) no-repeat top center #faf16e;
+    font-size: 12px;
+    font-family: 'Spartan', sans-serif;
+}
+
+header h1{
+    font-weight: 900; 
+    text-transform: uppercase; 
+    text-align: center; 
+    margin-top:18rem; 
+    font-size: 3.3rem;
+    line-height: 4rem;
+}
+.boxLocal{
+    background:#999;
+    color:#000;
+    font-size:2.3rem;
+    line-height: 4rem;
+}
+.btnInscricao{
+    background:#333;
+    color:#faf16e;
+    padding:10px 20px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 2rem;
+    transition: all 0.5s;
+}
+.btnInscricao:hover{
+    text-decoration: none;
+    color:#fff;
+    background:#7e7b4a
+}
+.btnFinalizaInscricao{
+    background:#333;
+    color:#faf16e;
+    padding:5px 10px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+    border:transparent;
+    width: 100%;
+    border-radius:3px;
+    margin-top:10px
+}
+.btnFinalizaInscricao:hover{
+    text-decoration: none;
+    color:#fff;
+    background:#7e7b4a
+}
+.sep{border-bottom:2px solid #333;}
+
+.selecao{
+    vertical-align: middle !important;
+    text-align: center;
+}
+.avisos{font-size:1.5rem}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  padding: 10px;
+}
